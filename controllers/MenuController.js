@@ -1,4 +1,4 @@
-const inquirer = require('inquirer');
+cconst inquirer = require('inquirer');
 
 module.exports = class MenuController {
   constructor(){
@@ -68,6 +68,10 @@ module.exports = class MenuController {
   exit(){
     console.log("Thanks for using AddressBloc!");
     process.exit();
+  }
+
+  getContactCount(){
+    return this.contacts.length;
   }
 
 }
