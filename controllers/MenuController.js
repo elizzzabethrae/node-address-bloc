@@ -1,4 +1,4 @@
-cconst inquirer = require('inquirer');
+const inquirer = require('inquirer');
 
 module.exports = class MenuController {
   constructor(){
