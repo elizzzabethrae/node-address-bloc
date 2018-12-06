@@ -30,4 +30,8 @@ module.exports = class ContactController {
     return Contact.create({name, phone});
   }
 
-}
+  addEmail(name, email){
+      return Contact.email({name, email});
+  }
+
+}``
