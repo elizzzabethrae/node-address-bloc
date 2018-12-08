@@ -38,8 +38,8 @@ module.exports = class ContactController {
     return Contact.create({name, phone, email});
   }
 
-  addEmail(name, email){
-      return Contact.email({name, email});
-  }
+  // addEmail(name, email){
+  //     return Contact.email({name, email});
+  // }
 
 }
